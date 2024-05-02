@@ -6,9 +6,12 @@ This demo includes a selection of EV-D68 sequences - full-genome. Or are they? T
 
 # Get the main steps working
 
-Use the [Zika tutorial Snakefile](https://github.com/nextstrain/zika-tutorial/blob/master/Snakefile) as a starting point!
+Clone this directory to your local computer so you can start playing with the files. Ask Emma if you need help cloning.
 
-*Hint: Add files and rules one by one as you go, so you can more easily spot mistakes!*
+Use the [Zika tutorial Snakefile](https://github.com/nextstrain/zika-tutorial/blob/master/Snakefile) as a starting point!
+Create your own Snakefile in the directory, and start to fill it in based on the Zika Snakefile.
+
+*Hint: Add files and rules to the Snakefile one by one as you go, so you can more easily spot mistakes!*
 
 You'll need to add a reference sequence to align and then to label where genes start and end. Have a look at the [reference sequence used by the Zika tutorial](https://github.com/nextstrain/zika-tutorial/blob/master/config/zika_outgroup.gb) and note the type of file it is. A `.gb` (Genbank) file. 
 
